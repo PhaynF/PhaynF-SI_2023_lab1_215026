@@ -1,0 +1,100 @@
+
+$ mkdir SI_2023_lab1_215026 (Креирање на локално репо)
+
+$ cd SI_2023_lab1_215026 (префрлување на локалното репо)
+
+$ git init (иницијализација на .git)
+
+$ nano README.md (Создавање на фајлот)
+
+$ git add README.md (Додавање на фајлот на сцена)
+
+$ git status (Проверка дали е на сцена фајлот :D)
+
+$ git commit -m "Initial Commit" (Првиот комит, додавање на коментар со фалјот)
+
+$ git remote add origin https://github.com/PhaynF/PhaynF-SI_2023_lab1_215026.git (Порврзување со репото на github)
+
+$ git push -u origin master (додавање на README фајлот во remote репото)
+
+$ nano SILab1.java (создавање на java fajlot)
+
+$ git add SILab1.java (Додавање на фајлот во сцена)
+
+$ git commit -m "Add java class" (Втор комит, додаваме коментар заедно со фајлот)
+
+$ git push -u origin master (додавање на фајлот во remote репото)
+
+$ git branch bug1 (креирање на гранка)
+
+$ git branch bug2 (уште една гранка)
+
+$ git branch bug3 (трета гранка)
+
+$ git checkout bug1 (префрлување на гранката bug1)
+
+$ ls (проверувам кои фајлови ги имам)
+
+$ nano SILab1.java (Го отворам фајлот и ја поправам грешката)
+ 
+$ git add SILab1.java (Додавање на сцена со сменет дел од кодот)
+
+$ git commit -m "Fix wrong loop for reading" (давам коментар за тоа што сум направил на фајлот)
+
+$ git checkout bug2 (Префрување на гранката bug2)
+
+$ nano SILab1.java (Го отворам фајлот и ја поправам грешката)
+
+$ git add SILab1.java (Додавање на сцена со сменет дел од кодот)
+
+$ git commit -m "Fix wrong condition in filterOddNumbers" (давам коментар за тоа што сум направил на фајлот)
+
+$ git checkout bug3 (Префрување на гранката bug3)
+
+$ nano SILab1.java (Го отворам фајлот и ја поправам грешката)
+
+$ git add SILab1.java (Додавање на сцена со сменет дел од кодот)
+
+$ git commit -m "Fix method for sumEvenNumbers" (давам коментар за тоа што сум направил на фајлот)
+ 
+$ git checkout master (Префрлување на master гранката)
+
+$ git pull (Синхронизација со remote репото)
+
+$ git push (Синхронизација со remote репото)
+
+$ git merge bug1 (Спојување со master гранката)
+
+$ git pull (Синхронизација со remote репото)
+
+$ git push (Синхронизација со remote репото)
+
+$ git merge bug2 (Спојување со master гранката)
+
+$ git push (Синхронизација со remote репото)
+
+$ git checkout bug3 (Префрување на гранката bug3)
+
+$ git rebase master (Префлрување на промените во мастер)
+
+$ git checkout master (Префрлување на master гранката)
+
+$ git pull (Синхронизација со remote репото)
+
+$ git push (Синхронизација со remote репото)
+
+$ git merge bug3 (Спојување со master гранката)
+
+$ git pull (Синхронизација со remote репото)
+
+$ git push (Синхронизација со remote репото)
+
+$ git log (Проверка на документацијата што сум ја правил до сега)
+
+$ nano 215026.txt (Овој фајл)
+
+$ git add 215026.txt (Го ставам на сцена)
+
+$ git commit -m "Final Commit" (Краен комит)
+
+$ git push -u origin master (додавање на remote репо)
