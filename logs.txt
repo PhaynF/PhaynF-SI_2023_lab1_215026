@@ -1,0 +1,36 @@
+commit cb51deddd2561bac79aa56c2457127cb95d2200d (HEAD -> master, origin/master, bug3)
+Author: Filip Stamboliev <filipstamboliev@students.finki.ukim.mk>
+Date:   Fri Mar 31 20:59:07 2023 +0200
+
+    Fix method for sumEvenNumbers
+
+commit 45b099a15e6a6d2e9252226cc58dda20f89a9945
+Merge: 4a76694 79e073a
+Author: Filip Stamboliev <filipstamboliev@students.finki.ukim.mk>
+Date:   Fri Mar 31 21:19:02 2023 +0200
+
+    Merge branch 'bug2'
+
+commit 79e073a87697b5f1e285af1016f8715097c8a703 (bug2)
+Author: Filip Stamboliev <filipstamboliev@students.finki.ukim.mk>
+Date:   Fri Mar 31 20:57:19 2023 +0200
+
+    Fix wrong condition in filterOddNumbers
+
+commit 4a766943c95793930aaf32b4589f7140e7bb78ad (bug1)
+Author: Filip Stamboliev <filipstamboliev@students.finki.ukim.mk>
+Date:   Fri Mar 31 20:53:36 2023 +0200
+
+    Fix wrong loop for reading
+
+commit 7bbd781f30ab39debadf41daa408261076d731bb
+Author: Filip Stamboliev <filipstamboliev@students.finki.ukim.mk>
+Date:   Fri Mar 31 20:45:09 2023 +0200
+
+    Add java class
+
+commit 758bf6d826e95a5a881b4b80357cdffd17a44853
+Author: Filip Stamboliev <filipstamboliev@students.finki.ukim.mk>
+Date:   Fri Mar 31 20:30:41 2023 +0200
+
+    Initial Commit
